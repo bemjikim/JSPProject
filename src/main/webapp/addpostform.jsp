@@ -79,7 +79,7 @@
         </div>
     </div>
 </nav>
-<h1 id = "h1">Add New Post</h1>
+<h1 id = "h1">Add New Member</h1>
 <form action="addpost.jsp" method="post" enctype="multipart/form-data">
 <table id = "list">
 <tr><th>User ID:</th><td><input type="text" name="userid"/></td></tr>
@@ -87,7 +87,7 @@
 <tr><th>Photo:</th><td style = "padding-left: 370px"><input type="file" name="photo" value="${u.getPhoto()}"/></td></tr>
 <tr><th>Email:</th><td><input type="text" name="email"></td></tr>
 <tr><th>Detail:</th><td><textarea cols="50" rows="5" name="detail"></textarea></td></tr>
-<tr><td></td><td style = "text-align:center" > <input type="submit" value="Add Post"/><br> <a href="list.jsp">View All Records</a> </td></tr>
+<tr><td></td><td style = "text-align:center" > <input type="submit" value="Add Member"/><br> <a href="list.jsp">View All Records</a> </td></tr>
 </table>
 </form>
 <footer class="container-fluid text-center">

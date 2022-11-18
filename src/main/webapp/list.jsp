@@ -98,7 +98,7 @@
 		</div>
 	</div>
 </nav>
-<h1 id = "h1">자유게시판</h1>
+<h1 id = "h1">멤버 정보 게시판</h1>
 <%
 	MemberDAO boardDAO = new MemberDAO();
 	List<MemberVO> list = boardDAO.getMemberList();
@@ -131,7 +131,7 @@
 
 </table>
 
-<br/><button id = "post" onclick = "location.href='addpostform.jsp'">Add New Post</button>
+<br/><button id = "post" onclick = "location.href='addpostform.jsp'">Add New Member</button>
 <footer class="container-fluid text-center">
 	<p>This is 21900104, Bum Jin Kim's Project 4</p>
 </footer>
